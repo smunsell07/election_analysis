@@ -9,7 +9,7 @@
 import csv
 import os
 # Assign a variable to load a file from a path.
-file_to_load=os.path.join("Resources","election_results.csv")
+file_to_load=os.path.join("resources","election_results.csv")
 # Assign a variable to save the file to a path.
 file_to_save=os.path.join("analysis","election_analysis.txt")
 
@@ -54,7 +54,7 @@ with open(file_to_load) as election_data:
         # Add a vote to that candidate's count.
         candidate_votes[candidate_name]+=1
 
-# Save the results to our text file
+# Save the results to the text file
 with open(file_to_save, "w") as txt_file:
 
 # Print the final vote count to the terminal
