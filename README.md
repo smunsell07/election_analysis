@@ -26,7 +26,7 @@ The Colorado Board of Elections requests an election audit of the tabulated resu
     * Diana DeGette received 272,892 votes and 73.8% of the votes cast.
     * Raymon Anthony Doane received 11,606 votes and 3.1% of the votes cast.
 * Diana DeGette won the congressional election with 73.8% of the votes cast and 272,892 votes cast for her.
-[!PyPoll_challenge_terminal_output](analysis/PyPoll_challenge_terminal_output.png)
+![PyPoll_challenge_terminal_output](analysis/PyPoll_challenge_terminal_output.png)
 
 ## Election Audit Summary
 
