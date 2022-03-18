@@ -25,5 +25,9 @@ The Colorado Board of Elections requests an election audit of the tabulated resu
     * Charles Casper Stockham received 85,213 votes and 23.0% of the votes cast.
     * Diana DeGette received 272,892 votes and 73.8% of the votes cast.
     * Raymon Anthony Doane received 11,606 votes and 3.1% of the votes cast.
-* Diana DeGette won the election with 73.8% of the votes cast and 272,892 votes cast for her.
+* Diana DeGette won the congressional election with 73.8% of the votes cast and 272,892 votes cast for her.
+[!PyPoll_challenge_terminal_output](analysis/PyPoll_challenge_terminal_output.png)
+
 ## Election Audit Summary
+
+This script can be easily modified to fit many types of elections. In a city election, wards can be exchanged for counties and the rest of the script can be used. For a statewide election, this script could used very closely as-is. However, there will be more counties than a congressional district. In a federal congressional or senate election, the counties would be changed to states. Depending on how the data is provided, some of the parameters may change but the formatting will be very similar. If a local initiative is being analyzed, the script can be modified, changing the candidates to in favor or against.  
